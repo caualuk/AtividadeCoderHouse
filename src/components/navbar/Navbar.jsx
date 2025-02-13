@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-import React from 'react';
-import { Link } from 'react-router-dom';
 
-function Navbar() {
-  return (
-    <nav>
-      <Link to="/nike">Nike</Link>
-      <Link to="/adidas">Adidas</Link>
-      <Link to="/puma">Puma</Link>
-    </nav>
-  );
-=======
 import React from "react";
 import CartWidget from "./CartWidget/CartWidget";
 import "./Navbar.css";
@@ -40,7 +28,6 @@ function Navbar() {
             </div>
         </nav>
     );
->>>>>>> 925455a (update commit)
 }
 
 export default Navbar;
