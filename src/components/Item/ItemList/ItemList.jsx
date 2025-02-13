@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import Item from "../Item";
 import './ItemList.css'
 
@@ -25,6 +26,14 @@ function ItemList({ items }) {
   
   return (
     <div>
+=======
+import Item from "../Item.jsx";
+import "./ItemList.css";
+
+function ItemList({ items }) {
+  return (
+    <div className="item-list-container">
+>>>>>>> 925455a (update commit)
       {items.map((item) => (
         <Item key={item.id} item={item} />
       ))}

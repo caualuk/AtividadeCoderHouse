@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div{
     border: "1px solid #ccc";
     border-radius: "8px";
@@ -30,3 +31,83 @@ button{
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
+=======
+.container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Altura total da tela */
+}
+
+.item-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: flex-start; /* Alinha os itens ao topo */
+  gap: 20px; 
+  padding: 20px; /* Espaçamento interno */
+}
+
+.item-container {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: transform 0.2s, box-shadow 0.2s; /* Transição suave */
+  width: 250px; /* Largura fixa para os itens */
+}
+
+.item-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+}
+
+.item-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Bordas mais arredondadas */
+  margin-bottom: 15px; /* Espaço abaixo da imagem */
+}
+
+.item-title {
+  font-size: 1.6em;
+  margin: 10px 0;
+  color: #333; /* Cor do texto mais escura */
+}
+
+.item-price {
+  font-size: 1.4em;
+  color: #1aff00; /* Cor do preço mais chamativa */
+  margin: 5px 0;
+}
+
+.item-stock {
+  color: #27ae60;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.item-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Transição suave */
+  font-size: 1em; /* Tamanho da fonte do botão */
+  gap: 20px;
+}
+
+.item-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
+}
+
+img {
+  width: 100%; /* Ajusta a imagem para ocupar toda a largura do contêiner */
+  border-radius: 8px; /* Bordas arredondadas para a imagem */
+}
+>>>>>>> 925455a (update commit)
