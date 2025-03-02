@@ -38,10 +38,6 @@ const About = () => {
         produtos 100% originais e de alta qualidade. Seja você um atleta profissional ou alguém que está começando sua jornada 
         fitness, temos tudo o que você precisa.
       </p>
-      <p>
-        Nossa equipe é composta por especialistas em nutrição e treinamento físico, prontos para oferecer orientações e 
-        recomendações personalizadas. Visite nossa loja ou entre em contato conosco para saber mais!
-      </p>
     </AboutContainer>
   );
 };
